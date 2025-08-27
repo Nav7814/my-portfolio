@@ -1,16 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navneet's Portfolio</title>
-    <style>
-        body { font-family: sans-serif; text-align: center; margin-top: 100px; }
-        h1 { color: #333; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevOps Portfolio | Navneet</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: #0d1117;
+      color: #e6edf3;
+    }
+
+    header {
+      background: #161b22;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #30363d;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #58a6ff;
+    }
+
+    header p {
+      margin: 5px 0 0;
+      font-size: 1rem;
+      color: #8b949e;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #58a6ff;
+      margin-bottom: 15px;
+    }
+
+    .about, .skills, .projects, .contact {
+      margin-bottom: 50px;
+    }
+
+    .skills ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skills li {
+      background: #21262d;
+      padding: 10px 15px;
+      border-radius: 6px;
+      border: 1px solid #30363d;
+    }
+
+    .projects .card {
+      background: #161b22;
+      border: 1px solid #30363d;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    .projects .card h3 {
+      margin: 0 0 10px;
+      color: #79c0ff;
+    }
+
+    .projects .card p {
+      margin: 0;
+      color: #c9d1d9;
+    }
+
+    .contact a {
+      color: #58a6ff;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      border-top: 1px solid #30363d;
+      color: #8b949e;
+    }
+  </style>
 </head>
 <body>
-    <h1>Hi, I'm Navneet kumar</h1>
-    <p>This is my portfolio website for DevOps.</p>
+  <header>
+    <h1>Navneet Kumar</h1>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      I am a DevOps Engineer passionate about building scalable infrastructure,
+      automating deployments, and ensuring smooth CI/CD pipelines.
+      Skilled in AWS, Docker, Kubernetes, Terraform, and GitHub Actions.
+    </p>
+  </section>
+
+  <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>AWS</li>
+      <li>Docker</li>
+      <li>Kubernetes</li>
+      <li>Terraform</li>
+      <li>Jenkins</li>
+      <li>GitHub Actions</li>
+      <li>Linux</li>
+      <li>CI/CD</li>
+    </ul>
+  </section>
+
+  <section class="projects">
+    <h2>Projects</h2>
+    <div class="card">
+      <h3>🚀 CI/CD Pipeline with GitHub Actions</h3>
+      <p>Built an automated CI/CD pipeline to deploy static websites to AWS S3 and CloudFront.</p>
+    </div>
+    <div class="card">
+      <h3>🐳 Dockerized Microservices</h3>
+      <p>Containerized applications with Docker and orchestrated them using Kubernetes.</p>
+    </div>
+    <div class="card">
+      <h3>☁️ Infrastructure as Code with Terraform</h3>
+      <p>Automated AWS infrastructure provisioning with Terraform modules.</p>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:nav085065@gmail.com">nav085065@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/Nav7814" target="_blank">github.com/Nav7814</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Navneet Kumar | DevOps Portfolio</p>
+  </footer>
 </body>
 </html>
